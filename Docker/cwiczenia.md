@@ -1,0 +1,2 @@
+- Nginx z wystawieniem katalogu
+- Wystawimy nginx z podmienioną zawartością katalogu "/usr/share/nginx/html" - wrzucic katalog "elements-www"
