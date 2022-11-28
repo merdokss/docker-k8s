@@ -47,5 +47,9 @@ Oficjalnie repozytorium obrazów docker-owych - https://hub.docker.com/
 ### Zarządanie siecią
 - `docker network`
 - `docker network create -d bridge network-1`
+- `docker network connect network-1 nginx` - podłączenie kontenera do istniejącej sieci
+- `docker network rm network-1` - usuwanie sieci
+
+
 
 
