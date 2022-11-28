@@ -42,7 +42,8 @@ Oficjalnie repozytorium obrazów docker-owych - https://hub.docker.com/
 - `docker commit`
 
 - `docker build` - budowanie obrazu z wykorzystaniem dockerfile </br>
-`docker build -t [name-image] -f dockerfile . `
+`docker build -t obraz-serwer -f dockerfile . ` - budowanie obrazu o nazwie obraz-serwer z pliku dockerfile i w tym katalogu w którym jestem </br>
+`docker build -t obraz-serwer -f path_dockerfile  [lokalizacja_zasobów_uzywanych_przez_dockerfile]`
 
 ### Zarządanie siecią
 - `docker network`
