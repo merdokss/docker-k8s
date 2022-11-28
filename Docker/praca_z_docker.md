@@ -10,7 +10,7 @@ Oficjalnie repozytorium obrazów docker-owych - https://hub.docker.com/
 
 - `docker run` - uruchamianie konteera na podstawie konkretnego obrazu bazowego </br>
 `docker run --name nginx -d nginx` </br>
-`docker run —-name ubuntu-dawid —rm -it  ubuntu`</br>
+`docker run -it --rm  ubuntu`</br>
 `docker run --name nginx -p 8888:80 nginx` </br>
 `docker run -it --entrypoint bash nginx` </br>
 `docker run --hostname server nginx` </br>
