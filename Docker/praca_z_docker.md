@@ -32,10 +32,9 @@ Oficjalnie repozytorium obrazów docker-owych - https://hub.docker.com/
 
 - `docker exec -it [kontener_name] [proces_name]` - podłączenie się do kontenera dodatkwowych procesem np. bash czy ls 
 
-- `docker volume`
+- `docker volume` - zarządzania volumes w dockerze
 
 - `docker rename OLD_NAME NEW_NAME`
-- 
 
 ### Zarządzanie obrazami
 - `docker images`
