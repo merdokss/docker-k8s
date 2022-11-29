@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: httpd-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  tls:
+  - hosts:
+    - clusterdemo-dama.northeurope.cloudapp.azure.com
+    secretName: clusterdemo-dama.northeurope.cloudapp.azure.com.tls
+  rules:
+    - host: clusterdemo-dama.northeurope.cloudapp.azure.com
+      http:
+        paths:
+        - path: /ingress/test
+          backend:
+            serviceName: apache-lb
+            servicePort: 80
