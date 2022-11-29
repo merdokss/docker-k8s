@@ -3,7 +3,7 @@
 ### Cluster
 
 - `kubectl get nodes`
-- `kubectl cluster info`
+- `kubectl cluster-info`
 - `kubectl version`
 - `kubectl config view`
 - `kubectl api-resources`
