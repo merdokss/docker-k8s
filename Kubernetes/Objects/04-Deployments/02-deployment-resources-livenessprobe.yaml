@@ -1,32 +1,32 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-resources
+  name: nginx-resources1
   labels:
-    app: nginx-resources
+    app: nginx-resources1
 spec:
   replicas: 4
   selector:
     matchLabels:
-      app: nginx-resources
+      app: nginx-resources1
   template:
     metadata:
       labels:
-        app: nginx-resources
+        app: nginx-resources1
     spec:
       containers:
-      - name: nginx-resources
+      - name: nginx-resources1
         image: nginx
         ports:
         - name: http
           protocol: TCP
           containerPort: 80
-        readinessProbe:
+        livenessProbe:
           httpGet:
             path: /
             port: 80
           initialDelaySeconds: 10
-          periodSeconds: 5
+          periodSeconds: 20
         resources:
           requests:
             memory: "64Mi"

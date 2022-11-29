@@ -32,7 +32,7 @@
 - `kubectl rollout undo deploy/nginx --to-revision=2`
 
 ### Secrets
-- `kubectl create secret docker-registry external-registry --docker-server=........ --docker-username=....... --docker-password=....... --docker-email=.......`
+- `kubectl create secret docker-registry external-registry --docker-server=testk8sworkshop.azurecr.io --docker-username=testk8sworkshop --docker-password=LwN5mAqTGOz4YH7h84Yd6xgGSQ/zjgVf `
 - `kubectl create secret generic mysql --from-literal=root-password='ir2pYdwKea'`
 
 ###  ConfigMaps
@@ -47,3 +47,4 @@
 - Kubernetes Storage Class - https://kubernetes.io/docs/concepts/storage/storage-classes/
 - Kuberetes CronJob - https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
 - Kubernetes Liveness, Readiness Probes - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+- Kubectx & Kubens - zmiana context klastra + zmiana namespaces -  https://github.com/ahmetb/kubectx
