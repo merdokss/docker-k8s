@@ -15,7 +15,8 @@
 - `kubectl logs my-pod ` - logi z danego poda
 - `kubectl get pod my-pod -o yaml` - szczegółowy opis definicji poda wraz ze statusami 
 - `kubectl describe my-pod` - opis danego poda, szczegółowe informację dotyczące poda
-- `kubectl port-forward my-pod 5000:6000` - wystawienie komunikacji na zewnątrz 
+- `kubectl port-forward my-pod 5000:6000` - wystawienie komunikacji na zewnątrz - sprawdzanie poda 
+- `kubectl port-forward svc/my-service-clusterip 8888:88` - wystawienie komunikacji na zewnątrz - sprawdzanie serwisu clusterIP
 - `kubectl exec -it my-pod -- ls` - uruchomienie kolejnego procesu w podzie
 - `kubectl exec my-pod -c my-container -- ls` - uruchomienie kolejnego procesu w podzie w dedykowanym kontenerze
 - `kubectl top pod POD_NAME --containers` - utylizacja zasobów dla danego poda
