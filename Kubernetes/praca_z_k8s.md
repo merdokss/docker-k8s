@@ -40,6 +40,7 @@
 
 ### Materiały i linki
 
+- Kubernetes - CheatSheet - https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 - Deployment Strategy - https://spot.io/resources/kubernetes-autoscaling/5-kubernetes-deployment-strategies-roll-out-like-the-pros/
 - Secrets - https://medium.com/avmconsulting-blog/secrets-management-in-kubernetes-378cbf8171d0
 - Kubernetes Storage Class - https://kubernetes.io/docs/concepts/storage/storage-classes/
