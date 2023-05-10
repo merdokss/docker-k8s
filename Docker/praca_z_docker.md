@@ -14,7 +14,8 @@ Oficjalnie repozytorium obrazów docker-owych - https://hub.docker.com/
 `docker run --name nginx -p 8888:80 nginx` </br>
 `docker run -it --entrypoint bash nginx` </br>
 `docker run --hostname server nginx` </br>
-`docker run -v ~/:/usr/share/nginx/html nginx`
+`docker run -v ~/:/usr/share/nginx/html nginx` </br>
+`docker run  -v /C/Users/Student/docker-k8s/test:/usr/share/nginx/html -d nginx` 
 
 
 
